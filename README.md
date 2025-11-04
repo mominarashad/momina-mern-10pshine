@@ -112,7 +112,7 @@ The app will run on:
 
 ---
 # 📁 Project Structure — momina-mern-10pshine
-
+```
 momina-mern-10pshine/
 │
 ├── backend/
@@ -130,6 +130,8 @@ momina-mern-10pshine/
 │ │ └── App.js # Main React app file
 │
 └── README.md # Project documentation
+
+```
 
 
 
