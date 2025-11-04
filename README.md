@@ -58,9 +58,78 @@ It allows users to create, edit, delete, and search notes while maintaining secu
 
 ---
 
+
+
 ## 🧑‍💻 Setup Instructions
 
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/your-username/momina-mern-10pshine.git
 cd momina-mern-10pshine
+```
+---
+## 2️⃣ Install Dependencies
+
+### For Backend:
+```bash
+cd backend
+npm install
+```
+---
+### For Frontend:
+```bash
+cd frontend
+npm install
+```
+---
+
+### 3️⃣ Environment Variables
+
+Create a `.env` file in the **backend** directory and add the following:
+
+```env
+MONGO_URI=your_mongodb_atlas_connection_string  
+JWT_SECRET=your_secret_key  
+PORT=8080
+```
+---
+### 4️⃣ Run the App
+
+**Start Backend Server:**
+```bash
+npm run dev
+```
+---
+
+**Start Frontend Server:**
+```bash
+npm start
+```
+---
+
+The app will run on:
+👉 http://localhost:3000
+
+---
+# 📁 Project Structure — momina-mern-10pshine
+
+momina-mern-10pshine/
+│
+├── backend/
+│ ├── Models/ # Contains MongoDB models (e.g., User, Note)
+│ ├── Routes/ # API route definitions (e.g., auth, notes)
+│ ├── Controllers/ # Handles logic for routes
+│ ├── Middleware/ # Authentication, logging, error handling
+│ └── server.js # Main backend server file
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # React pages (Home, Login, Signup, etc.)
+│ │ ├── utils/ # Utility functions and helpers
+│ │ └── App.js # Main React app file
+│
+└── README.md # Project documentation
+
+
+
