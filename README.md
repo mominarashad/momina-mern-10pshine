@@ -57,6 +57,15 @@ It allows users to create, edit, delete, and search notes while maintaining secu
    - APIs tested through **Postman**
 
 ---
+ ## 🧩 SonarQube Integration
+
+SonarQube is integrated to ensure high **code quality** and **maintainability** across both frontend and backend.  
+It performs static code analysis to identify bugs, vulnerabilities, and code smells.
+
+<img width="399" height="466" alt="image" src="https://github.com/user-attachments/assets/9c7a43df-a7f5-42f5-9fad-70b3b86c323e" />
+
+
+---
 
 
 
